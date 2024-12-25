@@ -1,8 +1,6 @@
 print("HEllo ")
-<<<<<<< HEAD
-print("yes")
-=======
 print("hello_world")
 
-print("changed branch")
->>>>>>> branch_1
+print("changed")
+
+print("this is the updated code on new branch")
