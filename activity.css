@@ -39,6 +39,7 @@ body{
     color: white;
     border-radius: 20px;
     padding: 10px;
+    text-decoration: underline;
 }
 .description{
     background-color: rgb(131, 88, 9);
