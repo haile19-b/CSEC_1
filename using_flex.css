@@ -9,10 +9,11 @@
 .nav{
     height: 10vh;
     background-color: #333;
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2px 20px;
 }
 .lists{
     display: flex;
@@ -33,15 +34,17 @@
     height: auto;
 }
 .products img{
-    width: 25em;
+    width: 20em;
     height: auto;
     object-fit: cover;
     border-radius: 5px;
 }
 .cont1{
-    padding: 3em;
+    padding: em;
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
+    justify-content:  center;
+    align-items: center;
     gap: 20px 20px;
 }
