@@ -1,6 +1,7 @@
 body{
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 .container{
     padding: 1em 1.5em;
@@ -9,6 +10,7 @@ body{
     width: 70%;
     grid-template-rows: 2fr 0.2fr 1fr;
     gap: 1em;
+    position: relative;
 }
 .main{
     width: 100%;
@@ -43,4 +45,11 @@ body{
 }
 .description{
     background-color: rgb(131, 88, 9);
+}
+.fa-cart-shopping{
+    position: absolute;
+    top: 10;
+    right: 1em;
+    font-size: 5em;
+    color: hsl(39, 100%, 76%);
 }
