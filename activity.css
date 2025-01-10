@@ -53,3 +53,23 @@ body{
     font-size: 5em;
     color: hsl(39, 100%, 76%);
 }
+.description{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+}
+.description p:hover{
+    color: hwb(0 71% 29%);
+}
+.scale:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: rgb(189, 156, 95);
+    font-size: large;
+    font-weight: bold;
+    
+}
+.main img:hover{
+    transform: scale(1.005);
+}

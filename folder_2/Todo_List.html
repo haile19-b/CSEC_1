@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="Todo_List.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TODO LIST</h1>
+        <div class="controls">
+            <input type="text" id="search" placeholder="Search note...">
+            <select id="filter">
+                <option value="all">ALL</option>
+                <option value="completed">Completed</option>
+                <option value="pending">Pending</option>
+            </select>
+            <button id="theme-toggle">🌙</button>
+        </div>
+        <ul id="todo-list">
+            <li>
+                <input type="checkbox" id="note-1">
+                <label for="note-1">Note #1</label>
+            </li>
+            <li>
+                <input type="checkbox" id="note-2" checked>
+                <label for="note-2">Note #2</label>
+            </li>
+            <li>
+                <input type="checkbox" id="note-3">
+                <label for="note-3">Note #3</label>
+            </li>
+        </ul>
+        <button id="add-note-btn">+</button>
+    </div>
+
+    <div class="modal" id="add-note-modal">
+        <div class="modal-content">
+            <h2>New Note</h2>
+            <input type="text" id="new-note-input" placeholder="Input your note...">
+            <div class="modal-buttons">
+                <button id="cancel-btn">Cancel</button>
+                <button id="apply-btn">Apply</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="Todo_List.js"></script>
+</body>
+</html>
